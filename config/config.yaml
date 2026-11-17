@@ -1,0 +1,19 @@
+application_name: resume_screener
+input:
+  source_path: data/new_resumes
+
+output:
+  # output_path: output
+  output_path: test_response
+  # raw_respone: raw_respone
+  # parsed_response: parsed_response
+
+llm:
+  api_key: OPEN_API_KEY
+  provider: openai
+  model: gpt-4o-mini
+
+retry:
+  max_attempts: 3
+  initial_delay: 2
+  max_delay: 30

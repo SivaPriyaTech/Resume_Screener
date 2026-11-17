@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+*.env
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generated pipeline output
+test_response/
+output/
+
+# OS files
+.DS_Store
+Thumbs.db
+
